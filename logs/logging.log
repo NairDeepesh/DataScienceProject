@@ -81,3 +81,27 @@ Source-Age: 0
 [2025-03-09 15:25:43,792:INFO:main:>>>>>> stage Data Ingestion STAGE completed <<<<<<
 
 x==========x]
+[2025-03-09 16:42:32,312:INFO:common:yaml file: config/config.yaml loaded successfully]
+[2025-03-09 16:42:32,325:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-03-09 16:42:32,357:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-03-09 16:42:32,358:INFO:common:created directory at: artifacts]
+[2025-03-09 16:42:32,359:INFO:common:created directory at: artifacts/data_validation]
+[2025-03-09 18:18:45,641:INFO:main:>>>>>> stage Data Ingestion STAGE started <<<<<<]
+[2025-03-09 18:18:45,643:INFO:common:yaml file: config/config.yaml loaded successfully]
+[2025-03-09 18:18:45,643:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-03-09 18:18:45,644:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-03-09 18:18:45,644:INFO:common:created directory at: artifacts]
+[2025-03-09 18:18:45,645:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-03-09 18:18:45,645:INFO:data_ingestion:File already exists]
+[2025-03-09 18:18:45,647:INFO:main:>>>>>> stage Data Ingestion STAGE completed <<<<<<
+
+x==========x]
+[2025-03-09 18:18:45,647:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-09 18:18:45,648:INFO:common:yaml file: config/config.yaml loaded successfully]
+[2025-03-09 18:18:45,649:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-03-09 18:18:45,649:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-03-09 18:18:45,649:INFO:common:created directory at: artifacts]
+[2025-03-09 18:18:45,650:INFO:common:created directory at: artifacts/data_validation]
+[2025-03-09 18:18:45,656:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
