@@ -105,3 +105,42 @@ x==========x]
 [2025-03-09 18:18:45,656:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2025-03-09 19:59:39,137:INFO:common:yaml file: config/config.yaml loaded successfully]
+[2025-03-09 19:59:39,140:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-03-09 19:59:39,143:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-03-09 19:59:39,144:INFO:common:created directory at: artifacts]
+[2025-03-09 19:59:39,146:INFO:common:created directory at: artifacts/data_transformation]
+[2025-03-09 19:59:39,183:INFO:741865018:Splited data into training and test sets]
+[2025-03-09 19:59:39,183:INFO:741865018:(1199, 12)]
+[2025-03-09 19:59:39,183:INFO:741865018:(400, 12)]
+[2025-03-10 12:59:34,374:INFO:main:>>>>>> stage Data Ingestion STAGE started <<<<<<]
+[2025-03-10 12:59:34,376:INFO:common:yaml file: config/config.yaml loaded successfully]
+[2025-03-10 12:59:34,376:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-03-10 12:59:34,377:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-03-10 12:59:34,377:INFO:common:created directory at: artifacts]
+[2025-03-10 12:59:34,377:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-03-10 12:59:34,377:INFO:data_ingestion:File already exists]
+[2025-03-10 12:59:34,379:INFO:main:>>>>>> stage Data Ingestion STAGE completed <<<<<<
+
+x==========x]
+[2025-03-10 12:59:34,379:INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2025-03-10 12:59:34,381:INFO:common:yaml file: config/config.yaml loaded successfully]
+[2025-03-10 12:59:34,381:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-03-10 12:59:34,382:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-03-10 12:59:34,382:INFO:common:created directory at: artifacts]
+[2025-03-10 12:59:34,382:INFO:common:created directory at: artifacts/data_validation]
+[2025-03-10 12:59:34,387:INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-03-10 12:59:34,387:INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2025-03-10 12:59:34,389:INFO:common:yaml file: config/config.yaml loaded successfully]
+[2025-03-10 12:59:34,389:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-03-10 12:59:34,390:INFO:common:yaml file: schema.yaml loaded successfully]
+[2025-03-10 12:59:34,390:INFO:common:created directory at: artifacts]
+[2025-03-10 12:59:34,390:INFO:common:created directory at: artifacts/data_transformation]
+[2025-03-10 12:59:34,460:INFO:data_transformation:Splited data into training and test sets]
+[2025-03-10 12:59:34,461:INFO:data_transformation:(1199, 12)]
+[2025-03-10 12:59:34,461:INFO:data_transformation:(400, 12)]
+[2025-03-10 12:59:34,461:INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
